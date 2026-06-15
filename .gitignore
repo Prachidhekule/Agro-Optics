@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+venv/
+py311_env/
+py312_env/
+
+# Python packages
+*.egg-info/
+
+# Node.js
+frontend/node_modules/
+frontend/build/
+frontend/.parcel-cache/
+frontend/.vite/
+dist/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+.vscode/
+
+# Backend uploads & temp
+backend/upload/
+uploads/
+media/
+temp/
+
+# ML Models (important)
+backend/model/*.h5
+backend/model/*.keras
+backend/model/*.tflite
+backend/model/*.pkl
+backend/model/*.joblib
+
+backend/models/*.h5
+backend/models/*.keras
+backend/models/*.tflite
+backend/models/*.pkl
+backend/models/*.joblib
+
+# Datasets (huge)
+backend/model/*.csvbackend/instance/
